@@ -1,0 +1,40 @@
+extends base.pug 
+
+//- block scripts 
+//-     script(src='/static/index.js')
+
+
+block style 
+    style
+      include ../static/style.css
+
+block content 
+   section#introsection 
+          div Wel-Come You are inside Sarang's Dance Club   
+          div.small  Eat Sleep Dance Repeat    
+   section#missionsection 
+          h2 Our Mission     
+          div.card 
+              h3 Dance Perfection 
+              div.card-content
+              p This is the best academy for dance in the universe.
+               p Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore vel libero iusto quas error, nulla id magni quasi officiis animi Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+          div.card 
+              h3 Dance the way you like   
+                 div.card-content
+              p This is the best academy for dance in the universe.
+               p Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore vel libero iusto quas error, nulla id magni quasi officiis animi Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate, atque!
+          div.card 
+              h3 Expert Teaching     
+                 div.card-content
+              p This is the best academy for dance in the universe.
+              p Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore vel libero iusto quas error, nulla id magni quasi officiis animi Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim, numquam?  
+  
+   section#sponsersection  
+       h2 Our Sponsers 
+       #sponsers 
+            img(src="/static/img/logo2.png", alt="Image not found", Class="spImage") 
+            img(src="/static/img/logo3.png", alt="Image not found" , Class="spImage")
+            img(src="/static/img/logo4.png", alt="Image not found" , Class="spImage")
+            img(src="/static/img/logo5.png", alt="Image not found" , Class="spImage")  
+

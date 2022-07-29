@@ -1,0 +1,38 @@
+h1{
+    text-align: center;
+    margin: 20px 0;
+    font-weight: bold;
+    font-size: 55px;
+    color: #e9ac64;
+    
+}
+
+.formgroup input {
+    font-family: 'Anton', sans-serif;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    display: block;
+    width: 376px;
+    padding: 11px;
+    margin: 13px auto;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 19px;
+}
+.btn {
+    font-family: 'Anton', sans-serif;
+    font-family: 'Lobster', cursive;
+    padding: 4px 13px;
+    margin: 0px 890px;
+    color: #991c48;
+    border-radius: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 25px 855px;
+}
+ .container{
+    /* min-height: 100vh; */
+    background: center/cover no-repeat url('/static/img/bg.jpg');
+    margin: -20px 0;
+
+} 
